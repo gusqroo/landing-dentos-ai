@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dentalos.ai/sitemap.xml
