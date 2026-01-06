@@ -13,7 +13,7 @@ export const Problem: React.FC = () => {
 
                 <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
                     {/* Traditional Software - Left */}
-                    <div className="bg-slate-200 rounded-3xl p-10 border-2 border-slate-300 relative overflow-hidden">
+                    <div className="bg-slate-200 rounded-3xl p-6 md:p-10 border-2 border-slate-300 relative overflow-hidden">
                         <div className="absolute top-0 right-0 w-32 h-32 bg-slate-300/50 rounded-full -mr-16 -mt-16"></div>
                         <div className="relative z-10">
                             <div className="mb-6">
@@ -52,7 +52,7 @@ export const Problem: React.FC = () => {
                     </div>
 
                     {/* DentalOS AI - Right */}
-                    <div className="glass-strong rounded-3xl p-10 border-2 border-teal-300 shadow-teal-glow relative overflow-hidden">
+                    <div className="glass-strong rounded-3xl p-6 md:p-10 border-2 border-teal-300 shadow-teal-glow relative overflow-hidden">
                         <div className="absolute top-0 right-0 w-40 h-40 bg-teal-400/20 rounded-full -mr-20 -mt-20 animate-pulse-slow"></div>
                         <div className="absolute bottom-0 left-0 w-32 h-32 bg-violet-400/20 rounded-full -ml-16 -mb-16 animate-pulse-slow" style={{ animationDelay: '1.5s' }}></div>
 

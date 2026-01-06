@@ -6,17 +6,17 @@ import { HeroTestimonials } from './HeroTestimonials';
 
 export const Hero: React.FC = () => {
     return (
-        <Section className="pt-24 md:pt-32 relative overflow-hidden" background="gradient-teal">
+        <Section className="pt-32 md:pt-40 relative overflow-hidden" background="gradient-teal">
             {/* Animated Background Elements */}
             <div className="absolute top-20 right-20 w-96 h-96 bg-teal-400/20 rounded-full blur-3xl animate-pulse-slow"></div>
             <div className="absolute bottom-20 left-20 w-80 h-80 bg-violet-400/20 rounded-full blur-3xl animate-pulse-slow" style={{ animationDelay: '1s' }}></div>
 
             <Container>
-                <div className="grid lg:grid-cols-2 gap-12 items-center mb-24">
+                <div className="grid lg:grid-cols-2 gap-12 items-center mb-16 md:mb-24">
                     {/* Left Column: Content */}
                     <div className="text-left relative z-10">
                         {/* Headline */}
-                        <h1 className="text-5xl md:text-7xl font-bold text-slate-900 mb-6 leading-tight">
+                        <h1 className="text-4xl md:text-7xl font-bold text-slate-900 mb-6 leading-tight">
                             Tu clínica en{' '}
                             <span className="bg-gradient-to-r from-teal-600 to-teal-500 bg-clip-text text-transparent">
                                 Autopiloto Inteligente

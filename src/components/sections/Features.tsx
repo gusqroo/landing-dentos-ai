@@ -61,30 +61,30 @@ export const Features: React.FC = () => {
                 <div className="flex flex-wrap justify-center gap-4 mb-12">
                     <button
                         onClick={() => setActiveTab('ai')}
-                        className={`px-8 py-4 rounded-2xl font-semibold transition-all duration-500 ${activeTab === 'ai'
+                        className={`px-4 py-3 md:px-8 md:py-4 rounded-2xl font-semibold transition-all duration-500 ${activeTab === 'ai'
                             ? 'glass-strong text-teal-700 scale-105 shadow-[0_0_30px_rgba(13,148,136,0.3)] border-teal-500/30 ring-1 ring-teal-500/20'
                             : 'glass text-slate-600 hover:scale-105'
                             }`}
                     >
-                        🤖 IA Conversacional
+                        🤖 IA
                     </button>
                     <button
                         onClick={() => setActiveTab('dictado')}
-                        className={`px-8 py-4 rounded-2xl font-semibold transition-all duration-500 ${activeTab === 'dictado'
+                        className={`px-4 py-3 md:px-8 md:py-4 rounded-2xl font-semibold transition-all duration-500 ${activeTab === 'dictado'
                             ? 'glass-strong text-violet-700 scale-105 shadow-[0_0_30px_rgba(124,58,237,0.3)] border-violet-500/30 ring-1 ring-violet-500/20'
                             : 'glass text-slate-600 hover:scale-105'
                             }`}
                     >
-                        🎤 Clínica & Dictado
+                        🎤 Dictado
                     </button>
                     <button
                         onClick={() => setActiveTab('facturacion')}
-                        className={`px-8 py-4 rounded-2xl font-semibold transition-all duration-500 ${activeTab === 'facturacion'
+                        className={`px-4 py-3 md:px-8 md:py-4 rounded-2xl font-semibold transition-all duration-500 ${activeTab === 'facturacion'
                             ? 'glass-strong text-teal-700 scale-105 shadow-[0_0_30px_rgba(13,148,136,0.3)] border-teal-500/30 ring-1 ring-teal-500/20'
                             : 'glass text-slate-600 hover:scale-105'
                             }`}
                     >
-                        💰 Facturación Nativa
+                        💰 Facturación
                     </button>
                 </div>
 

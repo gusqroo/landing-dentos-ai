@@ -7,30 +7,39 @@ import { Button } from '../ui/Button';
 const plans = [
     {
         name: 'ESENCIAL',
-        price: '$999',
+        price: '$599',
         period: '/mes',
         description: 'Para iniciar',
         features: [
             'Agenda Inteligente',
+            'Expediente Clínico Digital',
             'Cumplimiento NOM-004',
             'CFDI Limitado (50/mes)',
-            'Expediente Clínico Digital',
-            '1 Usuario'
+            'Recordatorios WhatsApp',
+            'Receta Digital con Validación QR',
+            'Consentimientos informados',
+            'Operaciones de la clínica',
+            'Dashboard de Ingresos Diario',
+            'Facturación limitada a 50 CFDI/mes',
+            '1 odontólogo'
         ],
         featured: false
     },
     {
         name: 'PRO AI',
-        price: '$1,899',
+        price: '$1,499',
         period: '/mes',
         description: 'Recomendado',
         badge: '🔥 Más Popular',
         features: [
             'Todo en ESENCIAL +',
-            '🤖 Recepcionista IA (Voz)',
-            '🎤 Dictado SOAP con IA',
-            '💰 Facturación Ilimitada',
-            'Hasta 3 Usuarios',
+            '🤖 Recepcionista IA (Voz): Citas 24/7',
+            '🧠 Asistente AI Rayos X: Tus segundos ojos',
+            '🎤 Dictado y llenado inteligente de historias clinicas y evoluciones',
+            '📝 Presupuestos con Odontograma interactivo',
+            '📱 Portal del Paciente (Citas)',
+            '💰 Facturación Ilimitada & Personalización de CFDI PDF',
+            'Hasta 3 odontólogos y 1 asistente',
             'Soporte Prioritario'
         ],
         featured: true
@@ -39,13 +48,13 @@ const plans = [
         name: 'INFINITY',
         price: '$3,499',
         period: '/mes',
-        description: 'Para Redes',
+        description: 'Para multiples sedes',
         features: [
             'Todo en PRO AI +',
-            '🏢 Multi-Sede Ilimitado',
+            '💎 White-Label: Tu marca',
+            '🏢 Multi-Sede limitado a 3 sedes',
             '👥 Usuarios Ilimitados',
             '📊 Analítica Avanzada',
-            'API Personalizada',
             'Soporte Dedicado 24/7'
         ],
         featured: false
