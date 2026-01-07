@@ -5,6 +5,7 @@ import { Hero } from './components/sections/Hero';
 import { Problem } from './components/sections/Problem';
 import { Features } from './components/sections/Features';
 import { Pricing } from './components/sections/Pricing';
+import DemoRequest from './components/sections/DemoRequest';
 import { FinalCTA } from './components/sections/FinalCTA';
 import { ScrollToTop } from './components/ui/ScrollToTop';
 
@@ -18,6 +19,7 @@ function App() {
                 <Problem />
                 <Features />
                 <Pricing />
+                <DemoRequest />
                 <FinalCTA />
             </main>
 
