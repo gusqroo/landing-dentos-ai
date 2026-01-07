@@ -5,19 +5,22 @@ interface GlassCardProps {
     className?: string;
     hover?: boolean;
     glow?: 'teal' | 'violet' | 'none';
+    noPadding?: boolean;
 }
 
 export const GlassCard: React.FC<GlassCardProps> = ({
     children,
     className = '',
     hover = false,
-    glow = 'none'
+    glow = 'none',
+    noPadding = false
 }) => {
     const glowClass = glow === 'teal' ? 'hover:shadow-teal-glow' : glow === 'violet' ? 'hover:shadow-[0_0_30px_rgba(124,58,237,0.3)]' : '';
     const hoverClass = hover ? 'hover:scale-105 transition-all duration-500' : '';
+    const paddingClass = noPadding ? 'p-0' : 'p-8';
 
     return (
-        <div className={`glass rounded-3xl p-8 ${hoverClass} ${glowClass} ${className}`}>
+        <div className={`glass rounded-3xl ${paddingClass} ${hoverClass} ${glowClass} ${className}`}>
             {children}
         </div>
     );

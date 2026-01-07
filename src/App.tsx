@@ -4,9 +4,9 @@ import { Footer } from './components/layout/Footer';
 import { Hero } from './components/sections/Hero';
 import { Problem } from './components/sections/Problem';
 import { Features } from './components/sections/Features';
-import { Compliance } from './components/sections/Compliance';
 import { Pricing } from './components/sections/Pricing';
 import { FinalCTA } from './components/sections/FinalCTA';
+import { ScrollToTop } from './components/ui/ScrollToTop';
 
 function App() {
     return (
@@ -17,12 +17,12 @@ function App() {
                 <Hero />
                 <Problem />
                 <Features />
-                <Compliance />
                 <Pricing />
                 <FinalCTA />
             </main>
 
             <Footer />
+            <ScrollToTop />
         </div>
     );
 }
