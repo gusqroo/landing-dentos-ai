@@ -45,6 +45,25 @@ export const Hero: React.FC = () => {
 
                     {/* Right Column: Hero Image */}
                     <div className="relative z-10 w-full animate-float">
+                        {/* Mexican Pride Badge - Floating Above */}
+                        <div className="absolute -top-16 md:-top-20 left-1/2 -translate-x-1/2 z-20 inline-flex items-center gap-2.5 md:gap-3 px-4 md:px-5 py-2.5 md:py-2.5 rounded-xl bg-gradient-to-r from-green-500/10 via-white/80 to-red-500/10 backdrop-blur-sm border border-white/40 shadow-lg max-w-[92vw] md:max-w-none">
+                            <div className="relative w-9 h-9 md:w-10 md:h-10 min-w-[2.25rem] min-h-[2.25rem] md:min-w-[2.5rem] md:min-h-[2.5rem] max-w-[2.25rem] max-h-[2.25rem] md:max-w-[2.5rem] md:max-h-[2.5rem] aspect-square rounded-full overflow-hidden border border-slate-300 shadow-sm flex items-center justify-center bg-white flex-shrink-0">
+                                <img
+                                    src="/Logo/mx.webp"
+                                    alt="Bandera de México"
+                                    className="w-full h-full object-cover rounded-full scale-105"
+                                />
+                            </div>
+                            <div className="flex flex-col md:block">
+                                <span className="text-[10.5px] md:text-xs font-black uppercase tracking-wide text-slate-700 leading-tight whitespace-nowrap">
+                                    Software dental 100% mexicano<span className="md:hidden">.</span>
+                                </span>
+                                <span className="hidden md:inline text-xs font-black text-slate-700">. </span>
+                                <span className="text-[9.5px] md:text-xs font-semibold md:font-black md:uppercase tracking-wide text-slate-500 md:text-slate-700 leading-tight whitespace-nowrap">
+                                    La innovación que México merece.
+                                </span>
+                            </div>
+                        </div>
                         <div className="absolute inset-0 bg-violet-500/10 blur-3xl rounded-full transform scale-75"></div>
                         <img
                             src="/images/hero.png"

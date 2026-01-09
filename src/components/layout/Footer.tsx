@@ -22,12 +22,28 @@ export const Footer: React.FC = () => {
                                 }}
                             />
                             <span className="text-2xl font-black text-white tracking-tight">
-                                DentOS<span className="text-teal-400">AI</span>
+                                DentOS<span className="text-teal-400"> AI</span>
                             </span>
                         </div>
-                        <p className="text-slate-400 leading-relaxed mb-6">
-                            Transformando la odontología en México con inteligencia artificial de vanguardia.
-                        </p>
+
+                        {/* Mexican Pride Badge */}
+                        <div className="inline-flex items-center gap-3 px-4 py-3 mb-4 rounded-2xl bg-gradient-to-r from-green-500/20 via-white/10 to-red-500/20 backdrop-blur-sm border border-white/20 shadow-lg">
+                            <div className="relative w-12 h-12 min-w-[3rem] min-h-[3rem] max-w-[3rem] max-h-[3rem] aspect-square rounded-full overflow-hidden border border-white/30 shadow-sm flex items-center justify-center bg-white">
+                                <img
+                                    src="/Logo/mx.webp"
+                                    alt="Bandera de México"
+                                    className="w-full h-full object-cover rounded-full scale-105"
+                                />
+                            </div>
+                            <div className="flex flex-col text-left">
+                                <span className="text-sm font-black bg-gradient-to-r from-green-400 via-white to-red-400 bg-clip-text text-transparent">
+                                    Software dental 100% mexicano
+                                </span>
+                                <span className="text-xs font-semibold text-slate-300">
+                                    La innovación que México merece
+                                </span>
+                            </div>
+                        </div>
                     </div>
 
                     {/* Quick Links */}
